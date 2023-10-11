@@ -1,31 +1,16 @@
-# Tailwind Admin
+# Bootstrap w/ Vite
 
-Super simple admin panel using [Tailwind CSS](https://tailwindcss.com).
+Include [Bootstrap](https://getbootstrap.com)'s source Sass and individual JavaScript plugins with [Vite](https://vitejs.dev/).
 
-[Live Demo](https://tailwindadmin.netlify.app)
+## Edit in browser
 
-## Note
-For Tailwind CSS version < 1.0
-Please use 1.0.0 branch
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/twbs/examples/tree/main/vite?file=index.html)
 
-To get started, clone or download the project
-Then Open index.html.
+## How to use
 
-### Dashboard
-![Image of Yaktocat](dist/images/dashboard.png)
-
-### Login
-
-![Image of Yaktocat](dist/images/login.png)
-
-### Please report any issue or suggestions in issue tracker, all issues or suggestions will be promptly addressed. We would love a pull request.
-
-
-## TODO:
- * Animation
- * Datatables
- * Widgets
-
-## IN PROGRESS:
- * Vue Js based admin panel template
- 
+```sh
+git clone https://github.com/twbs/examples.git
+cd examples/vite/
+npm install
+npm start
+```
